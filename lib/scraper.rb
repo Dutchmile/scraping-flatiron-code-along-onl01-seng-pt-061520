@@ -28,8 +28,6 @@ class Scraper
     end
   end
 
-doc.css(".post").first.css("h2").text
-
 end
 
   Scraper.new.get_page
